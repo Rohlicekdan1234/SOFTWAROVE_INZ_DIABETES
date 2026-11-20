@@ -20,17 +20,7 @@
 
 Tento dokument definuje funkční a nefunkční požadavky na telemedicínský systém pro podporu pacientů s diabetem mellitus 2. typu. Slouží jako podklad pro implementaci, testování a akceptaci systému.
 
-### 1.2 Vazba na analýzu a návrh systému
-
-Kontext systému – současný stav a identifikované problémy (`P1–P5`), cíle projektu (`C1–C7`), uživatelské role, rozsah, architektura komponent a případy užití (`UC-01–UC-16`) – je popsán v dokumentu [Analýza a návrh systému](01_analyza_a_navrh_systemu.md). Požadavky v tomto dokumentu jsou členěny podle komponent definovaných v jeho kapitole 6:
-
-1. mobilní aplikace pro pacienta,
-2. zabezpečené webové API (backend),
-3. databáze,
-4. webový portál pro zdravotnický personál,
-5. integrátor pro komunikaci s nemocničním informačním systémem (NIS) prostřednictvím standardu HL7 FHIR.
-
-### 1.3 Konvence
+### 1.2 Konvence
 
 - Požadavky jsou označeny jednoznačným identifikátorem ve tvaru `XX-YYY-NNN`, např. `FR-MOB-001` (funkční požadavek – mobilní aplikace).
 - Priorita je stanovena metodou **MoSCoW**:
